@@ -1,11 +1,11 @@
 class Food {
-  final String? imageUrl;
-  final String? name;
+  final String imageUrl;
+  final String name;
   final double? price;
 
   Food({
-    this.imageUrl,
-    this.name,
+    required this.imageUrl,
+    required this.name,
     this.price,
   });
 }
