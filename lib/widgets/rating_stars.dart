@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/models/restaurant.dart';
 
 class RatingStars extends StatelessWidget {
   final int rating;
